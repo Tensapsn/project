@@ -1,0 +1,123 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Change the font family */
+    font-weight: normal; /* Adjust the font weight */
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bg.jpg);
+    background-size: cover;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white; /* Set text color to white */
+    overflow: hidden;
+}
+
+.error-toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ff5733; /* Adjust the background color as needed */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+    z-index: 999;
+}
+
+.show-password {
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+.show-password:hover {
+    color: rgba(214, 86, 64, 1);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 2px solid #ccc;
+}
+
+.login {
+    width: 400px;
+    margin-top: 5em;
+}
+
+form {
+    width: 250px;
+    margin: 60px auto;
+}
+
+h2 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Helvetica Neue', sans-serif; /* Change the font family for headings */
+    font-size: 24px; /* Adjust the font size for headings */
+    font-weight: bold; /* Keep the font weight bold for headings */
+    text-transform: uppercase;
+}
+
+.text {
+    height: 100%;
+    width: 450px;
+}
+
+.text img {
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+span {
+    color: blue;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+input {
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: blue;
+}
+
+button:hover {
+    background: rgba(214, 86, 64, 1);
+}
